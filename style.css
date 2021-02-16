@@ -1,0 +1,142 @@
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+   
+    margin:0px;
+    padding:0px;
+}
+
+#wrapper{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+a, p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+#nav{
+    padding-top:20px;
+    height:30px;
+    width:100%;
+    text-align:right;
+}
+#nav a{
+    padding:30px;
+}
+
+#logo{
+    margin-top: 60px;
+    text-align:center;
+}
+
+.form {
+    margin-top:15px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.form-box{
+    height: 100px;
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    width:90%;
+    }
+.textbox{
+    height: 50%;
+}
+
+input[type=text]{
+    width: 100%;
+    height: 50px;
+    padding-left:30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+
+.lucky{
+    width: 100%;
+    height: 50%;
+    display:flex;
+    justify-content: center;
+}
+
+.button-gs{
+    width: 50%;
+    height:100%;
+    text-align:right;
+}
+.button-l{
+    width: 50%;
+    height: 50%;
+    text-align: left;
+}
+.lucky {
+    margin-top: 20px;
+}
+.lucky input[type="button"]{
+    background-color:rgba(242, 244, 247, 0.692);
+    text-align: center;
+    margin:5px;
+    padding:10px;
+    border: none;
+}
+.offer{
+    width: 100%;
+    height:230px;
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.footer{
+    background-color:rgba(208, 206, 214, 0.692);
+    margin-top: 20px;;
+    width:100%;
+    height: 100px;
+}
+
+.upper-footer{
+    border-bottom: 0.5px solid rgb(197, 189, 189);
+    width:100%;
+    height:50%;
+}
+.lower-footer{
+    margin-top: 10px;
+    width:100%;
+    display:flex;
+    height: 50px;
+}
+.upper-footer p{
+    padding: 20px
+}
+.lower-footer li{
+    list-style-type: none;
+    display:inline;
+    padding: 10px
+}
+
+.fleft{
+    margin-left:10px;
+    width: 50%;
+    display:flex;
+    justify-content:flex-start;
+}
+.fright{
+    margin-right: 10px;
+    width: 50%;
+    display:flex;
+    justify-content:flex-end;
+}
